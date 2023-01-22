@@ -12,7 +12,7 @@ interface Props {
   tweets: Tweet[]
 }
 
-const Home: NextPage = ({tweets}: Props) => {
+const Home: NextPage<Props> = ({tweets}: Props) => {
   
 
   return (
